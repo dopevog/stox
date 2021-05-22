@@ -4,7 +4,7 @@
  indicator algorithm developed by the Stox team for technical analysis. Check out how it works [here](https://github.com/cstox/stox/blob/main/Workings.md).
 
 ## Installation
-Get it from [PyPi](https://pypi.org/project/stox/0.1.1/):
+Get it from [PyPi](https://pypi.org/project/stox/):
 ```
 pip3 install stox
 ```
