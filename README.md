@@ -4,7 +4,7 @@
  indicator algorithm developed by the Stox team for technical analysis. Check out how it works [here]().
 
 ## Installation
-Get it from [PyPi]():
+Get it from [PyPi](https://pypi.org/project/stox/0.1.1/):
 ```
 pip3 install stox
 ```
@@ -101,4 +101,4 @@ You can download the ```SPX500.csv``` file [here]().
 * And Much More!
 
 ## License
-This Project Has Been MIT Licensed
+This Project Has Been [MIT Licensed](https://github.com/cstox/stox/blob/main/License.txt)
