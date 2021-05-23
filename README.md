@@ -18,12 +18,10 @@ python3 setup.py
 ## Usage
 ### Arguments:
 ```
-    stock (str): stock label
-    output (str): 'list' or 'message'
-    steps (int): previous days to consider for generating the model.
-    training (float): fraction assigned for training the model
+    stock (str): stock ticker symbol
+    output (str): 'list' or 'message' (Format Of Output)
     years (int or float): years of data to be considered
-    plot (bool): generate performance plot
+    chart (bool): generate performance plot
 ```
 
 ### Returns:
@@ -46,7 +44,7 @@ data (for)
 import stox
 
 script = input("Stock Ticker Symbol: ")
-data = stox.stox.exec(script,'message')
+data = stox.stox.exec(script,'list')
 
 print(data)
 ```
@@ -60,32 +58,32 @@ $ ['Apple Inc.', 125.43000030517578, 124.91, 'Bearish (Already)', '2021-05-24']
 import stox
 import pandas as pd
 
-stock_list = pd.read_csv("SPX500.csv")
-df = stock_list
-number_of_stocks = 100
+stock_list = pd.read_csv("SPX500.csv") 
+df = stock_list 
+number_of_stocks = 505 
 x = 0
 while x < number_of_stocks:
     ticker = stock_list.iloc[x]["Symbols"]
-    data = stox.stox.exec(script,'list')
-    df['Price'] = data[1]
-    df['Prediction] = data[2]
-    df['Analysis] = data[3]
+    data = stox.stox.exec(ticker,'list')
+    df['Price'] = data[1] 
+    df['Prediction'] = data[2]
+    df['Analysis'] = data[3]
     df['DateFor'] = data[4]
-    if df.Prediction - df.Price >= df.Price * 0.02:
-        if df.Analysis == "Bullish (Starting)":
+    if data[2] - data[1]  >= data[1]  * 0.02:
+        if data[3] == "Bullish (Starting)":
             df['Signal'] = "Buy"
-        elif df.Analysis == "Bullish (Already)":
+        elif data[3] == "Bullish (Already)":
             df['Signal'] = "Up"
-    elif df.Prediction - df.Price <= df.Price * -0.02:
-        if df.Analysis == "Bearish (Starting)":
+    elif data[2] - data[1]  <= data[1]  * -0.02:
+        if data[3] == "Bearish (Starting)":
             df['Signal'] = "Sell"
-        elif df.Analysis == "Bearish (Already)":
+        elif data[3] == "Bearish (Already)":
             df['Signal'] = "Down"
     else:
         df['Signal'] = "None"
     x = x+1
-df.to_csv("output.csv")
-print("Done")
+df.to_csv("output.csv") 
+print("Done") 
 ```
 ```
 $ stox> python3 main.py

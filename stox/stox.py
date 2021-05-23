@@ -4,9 +4,7 @@ import datetime as dt
 import pandas as pd
 import requests
 
-def exec(stock, output='list', steps=1, training=0.9, years=1, plot=False):
-
-    features = []
+def exec(stock, output='list', years=1, chart=False):
 
     techgood = False
     alreadygood = False
@@ -53,7 +51,7 @@ def exec(stock, output='list', steps=1, training=0.9, years=1, plot=False):
 
     cmp = df.at[2,'Close']
 
-    result, y_predicted, df = run(stock_data, features, steps, training)
+    result, y_predicted, df = run(stock_data, [], 1, 0.9)
 
     date = (dt.datetime.today() + dt.timedelta(days=1))
     while date.weekday() == 5 or date.weekday() == 6:
@@ -93,10 +91,10 @@ Predicted Price = {priceprediction}
 Technical Analysis = {techanalysis}
 Data (For) = {datefor}'''
 
-    if not plot:
+    if not chart:
         return result
 
-    if plot:
+    if chart:
         dates = df.index.tolist()
         from pandas.plotting import register_matplotlib_converters
         register_matplotlib_converters()
