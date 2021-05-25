@@ -97,5 +97,9 @@ $ Done
 * Multistock Analysis
 * And Much More!
 
+## Credits
+* [Dopevog](https://github.com/dopevog)
+* [Harry](https://github.com/fineans)
+
 ## License
 This Project Has Been [MIT Licensed](https://github.com/cstox/stox/blob/main/License.txt)
