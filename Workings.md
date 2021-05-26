@@ -1,2 +1,3 @@
 # How This Module Works
-Yet To Make
+## The Price Prediction
+For predicting the next closing price, Stox uses the [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) algorithm. This is a type of [ANN](https://en.wikipedia.org/wiki/Artificial_neural_network). 
