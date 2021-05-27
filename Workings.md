@@ -24,5 +24,5 @@ RSI below 50 & MA50 crosses price
 ```
 ```
 RSI below 50 & MA50 above price 
-= Uptrend (Start)
+= Uptrend (Already)
 ```
