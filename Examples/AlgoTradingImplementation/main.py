@@ -5,6 +5,7 @@ import pandas as pd
 stock_list = ['FB','AAPL','AMZN','NFLX','GOOG'] ## List Of Stocks You Would Want To Buy 
 number_of_stocks = len(stock_list)
 print(number_of_stocks)
+
 x = 0
 starting_cash = 10000 ## Amount Of Money In Trading Account
 current_cash = starting_cash
