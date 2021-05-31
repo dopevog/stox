@@ -1,9 +1,8 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://www.nocodb.com">Stox </a><br>
+        <a href="https://pypi.org/project/stox/">Stox </a><br>
     </b>
-        ![](favicon.png)
-    ✨ The Open Source Airtable Alternative ✨ <br>
+    ✨ A Python Module That Uses ANN To Predict A Stocks Price And Also Provides Accurate Technical Analysis With Many High Potential Implementations! ✨ <br>
 
 </h1>
 
