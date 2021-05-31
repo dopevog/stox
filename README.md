@@ -5,7 +5,7 @@
     ✨ A Python Module For The Stock Market ✨ <br>
 
 </h1>
-![](favicon.png)
+![](https://github.com/cstox/stox/blob/main/favicon.png)
 
 A Module to predict the "close price" for the next day and give "technical analysis". It 
  uses a Neural Network and the LSTM algorithm to predict the price. It uses a technical 
