@@ -2,7 +2,7 @@
     <b>
         <a href="https://pypi.org/project/stox/">Stox </a><br>
     </b>
-    ✨ A Python Module That Uses ANN To Predict A Stocks Price And Also Provides Accurate Technical Analysis With Many High Potential Implementations! ✨ <br>
+    ✨ A Python Module For The Stock Market ✨ <br>
 
 </h1>
 
