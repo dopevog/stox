@@ -5,6 +5,7 @@
     ✨ A Python Module For The Stock Market ✨ <br>
 
 </h1>
+
 ![favicon](https://user-images.githubusercontent.com/82938580/120155303-494c4d00-c20e-11eb-80b2-861414c28f3f.png)
 
 A Module to predict the "close price" for the next day and give "technical analysis". It 
