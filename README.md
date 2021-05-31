@@ -1,4 +1,6 @@
-<center><h1>Stox</h1></center>
+<center>
+ <h1>Stox</h1>
+</center>
 
 A Module to predict the "close price" for the next day and give "technical analysis". It 
  uses a Neural Network and the LSTM algorithm to predict the price. It uses a technical 
