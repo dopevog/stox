@@ -1,12 +1,10 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://pypi.org/project/stox/">Stox </a><br>
+        <a href="https://pypi.org/project/stox/">Stox </a><img align="center" width="100" height="100" src="https://github.com/cstox/stox/blob/main/favicon.png"><br>
     </b>
     ✨ A Python Module For The Stock Market ✨ <br>
 
 </h1>
-
-<img align="center" width="100" height="100" src="https://github.com/cstox/stox/blob/main/favicon.png">
 
 A Module to predict the "close price" for the next day and give "technical analysis". It 
  uses a Neural Network and the LSTM algorithm to predict the price. It uses a technical 
