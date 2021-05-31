@@ -1,7 +1,11 @@
-<center>
- <h1>Stox</h1>
-</center>
-<center>https://github.com/cstox/stox/blob/main/favicon.png</center>
+<h1 align="center" style="border-bottom: none">
+    <b>
+        <a href="https://www.nocodb.com">Stox </a><br>
+    </b>
+        ![](favicon.png)
+    ✨ The Open Source Airtable Alternative ✨ <br>
+
+</h1>
 
 A Module to predict the "close price" for the next day and give "technical analysis". It 
  uses a Neural Network and the LSTM algorithm to predict the price. It uses a technical 
