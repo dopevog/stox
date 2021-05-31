@@ -109,6 +109,7 @@ $ Done
 ## Credits
 * [Dopevog](https://github.com/dopevog)
 * [Harry](https://github.com/fineans)
+* [Gerard López](https://macosicons.com/u/Gerard%20L%C3%B3pez) - Logo
 
 ## License
 This Project Has Been [MIT Licensed](https://github.com/cstox/stox/blob/main/License.txt)
