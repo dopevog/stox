@@ -6,7 +6,9 @@
 
 </h1>
 
-<center>![favicon](https://user-images.githubusercontent.com/82938580/120155303-494c4d00-c20e-11eb-80b2-861414c28f3f.png)</center>
+<center>
+    ![favicon](https://user-images.githubusercontent.com/82938580/120155303-494c4d00-c20e-11eb-80b2-861414c28f3f.png)
+</center>
 
 A Module to predict the "close price" for the next day and give "technical analysis". It 
  uses a Neural Network and the LSTM algorithm to predict the price. It uses a technical 
