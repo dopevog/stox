@@ -4,7 +4,6 @@ import datetime as dt
 import pandas_ta 
 from pytrends.request import TrendReq
 
-
 def main(stock, years=1):  
     end = dt.datetime.today().strftime('%Y-%m-%d') 
     start = (dt.datetime.today() - dt.timedelta(days=365*years)).strftime('%Y-%m-%d') 
