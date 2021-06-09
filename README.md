@@ -21,7 +21,7 @@ Clone it from github:
 ```
 git clone https://github.com/dopevog/stox.git
 cd stox
-python3 setup.py
+python3 setup.py install
 ```
 
 ## Usage
