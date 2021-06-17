@@ -4,7 +4,7 @@
     </b>
     <img align="center" width="100" height="100" src="https://github.com/cstox/stox/blob/main/favicon.png"><br>
     </b>
-    ✨ A Python Module For The Stock Market ✨ <br>
+    ⚡ A Python Module For The Stock Market ⚡ <br>
 
 </h1>
 
