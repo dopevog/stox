@@ -108,7 +108,6 @@ $ Done
 
 ## Credits
 * [Dopevog](https://github.com/dopevog)
-* [Harry](https://github.com/fineans)
 * [Gerard López](https://macosicons.com/u/Gerard%20L%C3%B3pez) - Logo
 
 ## License
